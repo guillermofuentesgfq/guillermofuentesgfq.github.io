@@ -15,6 +15,7 @@ on:
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
+      - ".github/workflows/deploy.yml"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -42,6 +43,7 @@ on:
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
+      - ".github/workflows/deploy.yml"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -58,10 +60,16 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
@@ -103,8 +111,20 @@ jobs:
           purgecss -c purgecss.config.js
       - name: Create .nojekyll 🏷️
         run: touch _site/.nojekyll
-      - name: Deploy 🚀
+      - name: Upload Pages artifact 📤
         if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: actions/upload-pages-artifact@v4
         with:
-          folder: _site
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages 🚀
+        id: deployment
+        uses: actions/deploy-pages@v4
