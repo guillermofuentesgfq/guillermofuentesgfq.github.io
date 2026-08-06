@@ -1,189 +1,155 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Guillermo Fuentes Quijada
+  label: Head of Engineering
+  email:
+  location: Spain
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Engineering leader and Head of Engineering with 8+ years of experience driving platform modernization, AI-enabled development, and product transformation across multidisciplinary teams. Currently leading a 9-team engineering organization spanning DevEx, AI-powered developer tools, DevOps, DevSecOps, and platform engineering. Hands-on technical expertise in Ruby on Rails, Kubernetes, AWS, and Symfony, with a Doctorate in Advanced Computing Technologies (BizDevOps & Enterprise Architecture).
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: guillermofuentesgfq
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: guillermofuentesgfq
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of Castilla-La Mancha, Spain
+        area: Advanced Computing Technologies
+        studyType: Doctorate
+        start_date: 2020-12
+        end_date: 2025-02
         highlights:
-          - Description 1.
-          - Description 2.
+          - Specialization in BizDevOps and Enterprise Architecture. Thesis on aligning software development approaches with enterprise architecture frameworks to improve IT/business alignment in DevOps-driven organizations.
+          - Published 4 peer-reviewed papers in top-tier journals (Information Systems Frontiers, Journal of Software: Evolution and Process) and international conferences (ICEIS).
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Bío-Bío, Chile
+        area: Computer Science
+        studyType: Master
+        start_date: 2015-03
+        end_date: 2017-09
         highlights:
-          - Description 1.
-          - Description 2.
+          - Specialization in Data Quality and Enterprise Architecture. Research focused on data quality assessment methodologies in enterprise environments.
+
+      - institution: University of Bío-Bío, Chile
+        area: Computer Science
+        studyType: Bachelor
+        start_date: 2011-03
+        end_date: 2016-01
+        highlights:
+          - Specialization in BPMN Models and business process modeling.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Buk SpA
+        position: Head of Engineering
+        location: Chile (Remote from Spain)
+        start_date: 2025-09
+        end_date: present
+        summary: Leading a 9-team organization (45+ engineers) at an HR technology company providing HCM, LMS, attendance control, and payroll solutions to millions of users across Latin America. Own platform engineering, CI/CD, and Ruby on Rails development.
         highlights:
-          - Relativity
-          - Description 2.
+          - Scaled the engineering organization from 1 to 9 teams in under 18 months, establishing team charters, career ladders, and delivery frameworks.
+          - Founded the DevEx-AI team and built an agent orchestrator for automated code review, feature flag cleanup, and Sentry error resolution — reducing manual toil by an estimated 40%.
+          - Leading the observability transformation with OpenTelemetry, replacing legacy monitoring with unified distributed tracing — reducing MTTR from hours to minutes.
+          - Define technical strategy, OKRs, and roadmaps in partnership with Product and Design.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Buk SpA
+        position: Engineering Manager
+        location: Chile (Remote from Spain)
+        start_date: 2024-05
+        end_date: 2025-08
+        summary: Managed a team of 6 engineers responsible for the infrastructure and core features of a Learning Management System (LMS) serving 2M+ active users.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Reduced infrastructure costs by 30% through Horizontal Pod Autoscaling (HPA), right-sizing, and AWS region migration.
+          - Revamped deployment processes introducing ephemeral PR-based environments and automated CI/CD pipelines, accelerating feedback cycles from days to minutes.
+          - Adopted a Platform as a Product approach, treating internal tooling as a product with clear SLIs and iterative improvement cycles.
+          - Led the hiring and onboarding of 8 engineers, reducing ramp-up time by 30%.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Buk SpA
+        position: Staff Software Engineer
+        location: Chile (Remote from Spain)
+        start_date: 2021-09
+        end_date: 2024-03
+        summary: Led technical design and end-to-end feature delivery for an LMS used by 500+ organizations, using Symfony and React, with 99.9% uptime requirements.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Implemented HPA driven by RabbitMQ metrics, reducing average CPU waste by 25% and preventing recurring production incidents.
+          - Mentored 4 junior and mid-level engineers, reducing technical debt by 20% through systematic upgrades and static analysis in CI.
+          - Drove the migration from a monolithic Symfony application to a service-oriented architecture.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - company: Freelance
+        position: Software Engineer
+        location: Chile
+        start_date: 2015
+        end_date: 2020
+        summary: Delivered custom web applications across e-commerce, logistics, and education using Symfony, PHP, and JavaScript — managing full project lifecycles.
+        highlights:
+          - Achieved a 90%+ repeat engagement rate through reliable delivery and post-launch support.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Leadership
+        level: Expert
+        icon: fa-solid fa-users
+        keywords: "Engineering Management, Technical Strategy, Organizational Design, OKR Planning, Mentoring & Coaching, Product Transformation, Platform as a Product, Stakeholder Management, Hiring & Scaling Teams"
+
+      - name: DevOps & Platform
+        level: Expert
+        icon: fa-solid fa-cloud
+        keywords: "AWS (EC2, EKS, RDS, S3, VPC, IAM), Kubernetes, Docker, Terraform, CI/CD (GitLab CI, GitHub Actions), Observability (OpenTelemetry, Grafana, Prometheus), HPA, Cloud Cost Optimization"
+
+      - name: AI & DevEx
+        level: Advanced
+        icon: fa-solid fa-robot
+        keywords: "AI-Enabled Development, AI Agent Orchestration, AI Product Infrastructure, LLM Integration, Developer Experience (DevEx), Internal Developer Platforms (IDP), Developer Portals"
+
+      - name: Programming
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "Ruby on Rails, PHP, Symfony, Laravel, JavaScript, TypeScript, React, Java, Spring Boot, Python, SQL"
 
     Languages:
-      - name: German
+      - name: Spanish
         summary: "Native speaker"
 
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        summary: "B2 - Upper Intermediate"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: "AWS Cloud Quest: Generative AI Practitioner"
+        date: 2025
+        issuer: Amazon Web Services (AWS)
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: "AWS Cloud Quest: Generative AI Practitioner - Training Badge"
+        date: 2025
+        issuer: Amazon Web Services (AWS)
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Agile Explorer
+        date: 2025
+        issuer: IBM
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+    Publications:
+      - title: "Enterprise Architecture and IT Governance to Support the BizDevOps Approach: A Systematic Mapping Study"
+        authors:
+          - Guillermo Fuentes Quijada
+        publisher: Information Systems Frontiers
+        releaseDate: 2025
+        summary: Systematic study on aligning Enterprise Architecture, IT governance, and agile DevOps practices — relevant for regulated, high-stakes environments.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - title: "Improving IT/Business Alignment in DevOps: Business Capability for Adopting BizDevOps"
+        authors:
+          - Guillermo Fuentes Quijada
+        publisher: "Journal of Software: Evolution and Process"
+        releaseDate: 2025
+        summary: Proposed a Business Capability framework to align technical execution with business strategy in DevOps-driven organizations.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - title: An Architectural Viewpoint for Managing BizDevOps Software Projects
+        authors:
+          - Guillermo Fuentes Quijada
+        publisher: 26th Intl. Conf. on Enterprise Information Systems (ICEIS 2024)
+        releaseDate: 2024
+        summary: Defined an ArchiMate-based architectural viewpoint for managing software projects under BizDevOps.
+
+      - title: Challenges as Regards Aligning IT and Business with Agility When Applying the BizDevOps Approach
+        authors:
+          - Guillermo Fuentes Quijada
+        publisher: Intl. Conf. on Enterprise Information Systems (ICEIS)
+        releaseDate: 2023
+        summary: Identified key challenges in maintaining business-IT alignment when adopting BizDevOps with agility.

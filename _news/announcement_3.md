@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-07-15 00:00:00+0200
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Earned the **AWS Cloud Quest: Generative AI Practitioner** certification from Amazon Web Services.
