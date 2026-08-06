@@ -71,9 +71,7 @@
       "startDate": "2015-01-01",
       "endDate": "2020-12-31",
       "summary": "Delivered custom web applications across e-commerce, logistics, and education using Symfony, PHP, and JavaScript.",
-      "highlights": [
-        "Achieved a 90%+ repeat engagement rate through reliable delivery and post-launch support."
-      ]
+      "highlights": ["Achieved a 90%+ repeat engagement rate through reliable delivery and post-launch support."]
     }
   ],
   "education": [
@@ -94,9 +92,7 @@
       "studyType": "Master",
       "startDate": "2015-03-01",
       "endDate": "2017-09-30",
-      "highlights": [
-        "Specialization in Data Quality and Enterprise Architecture."
-      ]
+      "highlights": ["Specialization in Data Quality and Enterprise Architecture."]
     },
     {
       "institution": "University of Bío-Bío, Chile",
@@ -104,9 +100,7 @@
       "studyType": "Bachelor",
       "startDate": "2011-03-01",
       "endDate": "2016-01-31",
-      "highlights": [
-        "Specialization in BPMN Models and business process modeling."
-      ]
+      "highlights": ["Specialization in BPMN Models and business process modeling."]
     }
   ],
   "publications": [

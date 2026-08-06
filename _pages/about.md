@@ -29,7 +29,7 @@ Engineering leader and Head of Engineering with 8+ years of experience driving p
 
 My leadership approach combines hands-on technical expertise (Ruby on Rails, Kubernetes, AWS, Symfony) with a track record of measurable impact: 30% cloud cost reduction through HPA and right-sizing, AI agent orchestration for automated code review and error resolution, and full-stack observability modernization using OpenTelemetry. I lead the platform foundations that enable secure, scalable, and reliable deployment of AI-powered product capabilities, APIs, and integrations.
 
-My Doctorate in Advanced Computing Technologies (BizDevOps & Enterprise Architecture) provides a structured framework for aligning engineering execution with business outcomes, and my research — published in journals like *Information Systems Frontiers* and *Journal of Software: Evolution and Process* — focuses on IT/business alignment in DevOps-driven organizations.
+My Doctorate in Advanced Computing Technologies (BizDevOps & Enterprise Architecture) provides a structured framework for aligning engineering execution with business outcomes, and my research — published in journals like _Information Systems Frontiers_ and _Journal of Software: Evolution and Process_ — focuses on IT/business alignment in DevOps-driven organizations.
 
 Based in Spain, I work remotely as an engineering leader for a Chilean-headquartered HR technology company serving millions of users across Latin America.
 
