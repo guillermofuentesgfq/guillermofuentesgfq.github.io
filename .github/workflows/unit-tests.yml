@@ -66,8 +66,10 @@ jobs:
       - name: Install JS deps 📦
         run: npm ci
 
-      - name: Run style contract lint 🧷
-        run: npm run lint:style-contract
+      # Disabled: starter-repo guard; this user site legally owns local `_sass/_themes.scss`
+      # (tracked in `.al-folio-overrides.yml`), so the style-contract check fails by design.
+      # - name: Run style contract lint 🧷
+      #   run: npm run lint:style-contract
 
       - name: Install build prerequisites 🔧
         run: |
@@ -80,8 +82,10 @@ jobs:
       - name: Run plugin toggle integration test 🔌
         run: bash test/integration_plugin_toggles.sh
 
-      - name: Run distill integration test 📄
-        run: bash test/integration_distill.sh
+      # Disabled: requires the starter's example distill post (removed during site
+      # personalization); the site no longer has a distill blog post to validate.
+      # - name: Run distill integration test 📄
+      #   run: bash test/integration_distill.sh
 
       - name: Run bootstrap compatibility integration test 🧩
         run: bash test/integration_bootstrap_compat.sh
@@ -92,5 +96,7 @@ jobs:
       - name: Run CSS minify integration test 🎨
         run: bash test/integration_css_minify.sh
 
-      - name: Run new plugin integration checks 🧩
-        run: bash test/integration_new_plugins.sh
+      # Disabled: requires the starter's RTL/marimo example posts (removed during site
+      # personalization); there are no demo posts left to validate.
+      # - name: Run new plugin integration checks 🧩
+      #   run: bash test/integration_new_plugins.sh
