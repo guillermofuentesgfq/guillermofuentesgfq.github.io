@@ -1,8 +1,10 @@
 github_users:
   - guillermofuentesgfq
+  - gfuentesboost
 
 repo_description_lines_max: 2
 
 github_repos:
   - guillermofuentesgfq/ecs-aws-app
   - guillermofuentesgfq/ecs-aws-infra
+  - gfuentesboost/DoctrineExtensions
