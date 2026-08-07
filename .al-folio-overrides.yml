@@ -7,4 +7,4 @@ overrides:
     upstream_path: _sass/_themes.scss
     upstream_sha256: b581e43dcfbf21c14f388e2b585474c886fad62f6b5a0444f7832e7f69745f1f
     local_sha256: 549372aa5ae124c622c39e5ccb6864dfa922a3745acc0df71fe17cac3c597773
-    acknowledged_at: '2026-08-07'
+    acknowledged_at: "2026-08-07"
