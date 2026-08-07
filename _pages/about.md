@@ -6,7 +6,7 @@ subtitle: Engineering Leader · Doctor in Advanced Computing Technologies
 
 profile:
   align: right
-  image: # name of the image in /assets/img/ (e.g., prof_pic.jpg)
+  image: prof_pic.jpg # name of the image in /assets/img/ (e.g., prof_pic.jpg)
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Spain</p>
